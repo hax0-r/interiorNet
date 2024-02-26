@@ -195,6 +195,7 @@
 
         .main {
             .head {
+                padding-left: 3vw;
                 h1 {
                     font-size: 3rem;
                     font-weight: 400;
@@ -256,6 +257,7 @@
         @media (max-width:500px) {
             .main {
                 .head {
+                padding-left: 0;
                     h1 {
                         font-size: 2rem;
                         padding: 2rem 0 1rem 1rem;
