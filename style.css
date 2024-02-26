@@ -420,6 +420,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
         padding: 5vw 3vw;
 
         .main {
@@ -480,11 +481,31 @@
             }
         }
 
+        .loveHomeBtn {
+            display: flex;
+            justify-content: end;
+            text-align: end;
+            max-width: 80rem;
+            width: 100%;
+            padding-top: 5vw;
+
+            button {
+                background-color: #000000;
+                color: #ffffff;
+                border: none;
+                padding: .7rem 2rem;
+                font-size: 1.5rem;
+                font-weight: 500;
+            }
+
+        }
+
         @media (max-width:600px) {
             .main {
                 padding-top: 2rem;
 
                 .left {
+
                     h1,
                     i {
                         font-size: 2rem;
@@ -509,6 +530,17 @@
                         font-size: 2rem;
                     }
                 }
+            }
+
+            .loveHomeBtn {
+                justify-content: center;
+                text-align: center;
+                padding-top: 2rem;
+
+                button {
+                    font-size: 1.3rem;
+                }
+
             }
         }
     }
